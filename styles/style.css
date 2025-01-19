@@ -400,7 +400,7 @@ width: 95%;
 .information-tablist,
 .tab-data{
   width: 80%;
-  height: 30vh;
+  height: max-content;
 }
 .tab-data{
   display: block;
