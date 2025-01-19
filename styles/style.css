@@ -149,6 +149,7 @@ body{
 }
 .electronic-services-title{
   color: green;
+    
 }
 .electronic-items{
  width: 80%;
@@ -381,7 +382,7 @@ cursor: pointer;
  display: none;
 }
 .electronic-services-title{
-  font-size: 14px;
+  font-size: 20px;
 }
 .electronic-items{
   display: flex;
@@ -409,6 +410,7 @@ width: 95%;
 }
    .mayor-information{
     flex-direction: column;
+       font-size: 13px;
    }
 
    .footer-container{
