@@ -1,4 +1,4 @@
-const informationBtn = document.querySelectorAll('.information-tab')
+const informationSBtn = document.querySelectorAll('.information-tab')
 const tabDataElm = document.querySelector('.tab-data-list')
 const filterBtn = document.querySelector('.filter-btn')
 
@@ -39,9 +39,9 @@ let tabListData = {
 
 
 
-informationBtn.forEach(informationBtn => {
+informationSBtn.forEach(informationBtn => {
     informationBtn.addEventListener('click' ,  function (e) {
-        informationBtn.forEach(item  => {
+        informationSBtn.forEach(item  => {
         item.classList.remove('clicked')
   })
         e.target.classList.add('clicked')
