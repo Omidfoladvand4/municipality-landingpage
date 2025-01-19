@@ -407,7 +407,7 @@ width: 95%;
 .information-tablist
     ,tab-data{
   width: 80%;
-  height:calc(max-content + 15px);
+  height: max-content ;
     margin:1%;
     
 }
