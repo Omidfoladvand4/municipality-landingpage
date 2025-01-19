@@ -404,10 +404,10 @@ width: 95%;
   height: 100vh;
 }
 .information-areas,
-.information-tablist,
-.tab-data{
+.information-tablist
+    ,tab-data{
   width: 80%;
-  height: 30%;
+  height:calc(max-content + 15px);
     margin:1%;
     
 }
