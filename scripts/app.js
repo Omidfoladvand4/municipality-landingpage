@@ -1,6 +1,9 @@
 const informationSBtn = document.querySelectorAll('.information-tab')
 const tabDataElm = document.querySelector('.tab-data-list')
 const filterBtn = document.querySelector('.filter-btn')
+const menuBtn = document.querySelector('.menu-icon')
+const menu = document.querySelector('.navbar')
+
 
 
 let tabListData = {
@@ -65,7 +68,10 @@ const filterClickHandler  = () =>{
   document.body.classList.toggle('filtered')
 }
 
-
+const showMenuHeander = () => {
+   menu.classList.toggle('responsive-active')
+}
 
 
 filterBtn.addEventListener('click' , filterClickHandler)
+menuBtn.addEventListener('click' , showMenuHeander)
