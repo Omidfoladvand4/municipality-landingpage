@@ -80,6 +80,8 @@ body{
     border-bottom-right-radius: 12%;
     border-bottom-left-radius: 12%;
     overflow: hidden;
+    object-fit: cover;
+      
   }
 
   .swiper-slide img {
