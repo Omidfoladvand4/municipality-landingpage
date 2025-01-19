@@ -261,12 +261,12 @@ color: #fff;
 cursor: pointer;
 }
 .mayor-information{
-  width: 90%;
+  width: 100%;
   box-shadow: 1px 1px 15px 8px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin:  10px auto;
+  margin:  25px auto;
   border-bottom: 10px solid #F5952E;
   border-radius: 5px;
   overflow: hidden;
@@ -400,7 +400,9 @@ width: 95%;
 .information-tablist,
 .tab-data{
   width: 80%;
-  height: max-content;
+  height: 30%;
+    margin:1%;
+    
 }
 .tab-data{
   display: block;
