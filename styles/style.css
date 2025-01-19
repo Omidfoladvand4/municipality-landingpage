@@ -285,6 +285,10 @@ cursor: pointer;
 .mayor-information-profile .mayor-name{
   font-weight: bolder;
   color: green;
+    display: block;
+}
+.postion{
+    diplay: block; 
 }
 .footer{
   width: 100%;
