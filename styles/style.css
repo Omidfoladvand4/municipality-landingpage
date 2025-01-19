@@ -375,6 +375,7 @@ cursor: pointer;
 }
 .mySwiper{
   width: 100%;
+    height: 60vh;
 }
 .header-down {
  display: none;
